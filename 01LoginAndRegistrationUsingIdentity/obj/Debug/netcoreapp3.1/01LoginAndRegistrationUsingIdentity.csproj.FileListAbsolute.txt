@@ -171,3 +171,4 @@ F:\Proj\.NET\dotNet Test Codes\01LoginAndRegistrationUsingIdentity\01LoginAndReg
 F:\Proj\.NET\dotNet Test Codes\01LoginAndRegistrationUsingIdentity\01LoginAndRegistrationUsingIdentity\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 F:\Proj\.NET\dotNet Test Codes\01LoginAndRegistrationUsingIdentity\01LoginAndRegistrationUsingIdentity\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
 F:\Proj\.NET\dotNet Test Codes\01LoginAndRegistrationUsingIdentity\01LoginAndRegistrationUsingIdentity\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+F:\Proj\.NET\dotNet Test Codes\01LoginAndRegistrationUsingIdentity\01LoginAndRegistrationUsingIdentity\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_AuthLayout.cshtml.g.cs
