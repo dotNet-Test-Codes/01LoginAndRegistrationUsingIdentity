@@ -15,12 +15,17 @@ namespace _01LoginAndRegistrationUsingIdentity.Areas.Identity
         public void Configure(IWebHostBuilder builder)
         {
             builder.ConfigureServices((context, services) => {
-                services.AddDbContext<AuthDBContext>(options =>
-                    options.UseSqlServer(
-                        context.Configuration.GetConnectionString("AuthDBContextConnection")));
+            services.AddDbContext<AuthDBContext>(options =>
+                options.UseSqlServer(
+                    context.Configuration.GetConnectionString("AuthDBContextConnection")));
 
-                services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-                    .AddEntityFrameworkStores<AuthDBContext>();
+            services.AddDefaultIdentity<IdentityUser>(options =>
+            {
+                options.SignIn.RequireConfirmedAccount = false;
+                options.Password.RequireLowercase = false;
+                options.Password.RequireUppercase = false;
+            })
+                .AddEntityFrameworkStores<AuthDBContext>();
             });
         }
     }
